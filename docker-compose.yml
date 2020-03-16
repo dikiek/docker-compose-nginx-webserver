@@ -3,6 +3,7 @@ version: "2"
 services:
     client:
         image: nginx
+        container_name: webserver1
         ports:
             - 8000:80
         volumes:
