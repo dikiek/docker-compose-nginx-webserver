@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+    client:
+        image: nginx
+        ports:
+            - 8000:80
+        volumes:
+            - ./src/my-site/:/usr/share/nginx/html
